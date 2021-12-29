@@ -12,7 +12,7 @@ const AboutMe = () =>{
             </div>
 
             <div>
-                Matthew Mahendra was born in Jakarta at 26th of June 2003, he is currently {age} years old. A student Computer Science/Informatics student at Bandung Institute of Technology, he was admitted in 2021 as an undergraduate student. Currently, he is interested in ReactJS and Python in web development.
+                Matthew Mahendra was born in Jakarta at 26th of June 2003, he is currently {age} years old. A Computer Science/Informatics student at Bandung Institute of Technology, he was admitted in 2021 as an undergraduate student. Currently, he is interested in ReactJS and Python in web development.
             </div>
         </div>
         </>
