@@ -1,0 +1,69 @@
+:root{
+    font-size: 20px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap');
+
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0;
+    background-color: #1f1f1f;
+    font-family: 'Cinzel';
+}
+
+.navbar li{
+    float: right;
+}
+
+.navbar li a{
+    display: block;
+    padding: 15px 20px;
+    color: #dfdfdf;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    color: #1f1f1f;
+    background-color: #dfdfdf;
+}
+
+.navbar li.title{
+    float:left;
+    padding: 15px 20px;
+    color: #dfdfdf;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar li.title img{
+    background-color: #dfdfdf;
+    border-radius: 100px;
+    float: left;
+}
+
+.footer{
+    background-color: #1f1f1f;
+    color: #dfdfdfdf;
+    padding: 30px;
+    font-size: 15px;
+    justify-content: center;
+    font-family: 'Cinzel';
+}
+
+.content{
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Assistant';
+    color: #000;
+}
+
+.content .column{
+    display: flex;
+    flex-flow: wrap;
+    margin: 20px 20px;
+}
