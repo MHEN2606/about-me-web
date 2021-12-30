@@ -2,17 +2,21 @@
 //import './App.css';
 import './style.css';
 import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 import Navbar from './navbar';
 import Footer from './footer';
 import AboutMe from './about-me';
 import Achievements from './achievements';
 import Activities from './activities';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Education from './education';
+import SchoolDetail from './schooldetail';
 
 function App() {
 
   const [achievements, setAchievements] = useState(null);
   const [activities, setActivities] = useState(null);
+  const [education, setEducation] = useState(null);
 
   useEffect( () => {
     fetch("http://localhost:8000/achievements")
@@ -29,6 +33,14 @@ function App() {
         })
         .then(data => {
           setActivities(data);
+        })
+
+      fetch('http://localhost:8000/education')
+        .then(res => {
+          return res.json();
+        })
+        .then(data =>{
+          setEducation(data);
         })
   },[]);
 
@@ -47,7 +59,15 @@ function App() {
             </Route>
 
             <Route path="/activities">
-              {<Activities activities={activities}/>}
+              {activities && <Activities activities={activities}/>}
+            </Route>
+
+            <Route path="/education">
+              {education && <Education education={education}/>}
+            </Route>
+
+            <Route path="/schooldetail/:id">
+              {education && <SchoolDetail education={education}/>}
             </Route>
             
           </Switch>

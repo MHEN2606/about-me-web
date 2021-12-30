@@ -71,3 +71,11 @@
     margin: 20px 20px;
     padding: 4px;
 }
+
+.content a {
+    text-decoration: none;
+}
+
+.content a:hover{
+    text-shadow: 2px 2px black;
+}

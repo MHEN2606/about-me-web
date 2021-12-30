@@ -61,5 +61,23 @@
             "yearsActive":"2021 - now",
             "id": 4
         }
+    ],
+    "education":[
+        {
+            "id": 1,
+            "school": "Canisius College Senior Highschool",
+            "years": "2018-2021",
+            "major": "Natural Sciences",
+            "detail": "Canisius College is a private Catholic secondary school for boys, located in Menteng, Central Jakarta, Java, Indonesia. The school was founded by the Indonesian Province of the Society of Jesus in 1927",
+            "imageUrl":"https://scontent.fcgk6-2.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/36281507_470417980051676_3004872030676844544_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e007fa&efg=eyJpIjoidCJ9&_nc_eui2=AeEFYSOilQb--rkEyM8JXUGZzWNGIk-26gnNY0YiT7bqCeHPpXGPsVofsUbLPxbxvYggr5EiIYMIVEMUpm94miL9&_nc_ohc=Nc8qif8tL3EAX9KJGIc&_nc_ht=scontent.fcgk6-2.fna&oh=00_AT-6FW7z94xmzNGef-wrB4pkD6T0jJLncwRmIY_6QeR_8w&oe=61F27D68"
+        },
+        {
+            "id": 2,
+            "school": "Bandung Institute of Technology",
+            "years": "2021-2025(expected)",
+            "major": "Informatics/Computer Science",
+            "detail": "Institut Teknologi Bandung is the first technical university in Indonesia that was established on March 2, 1959 in West Java, with a mission to serve science and technology to develop the nation. Born in an atmosphere full of dynamics based on the spirit of the struggle for the Proclamation of Independence, ITB is here to optimize the development of an advanced and dignified nation.",
+            "imageUrl": "https://www.itb.ac.id/files/dokumentasi/1593493830-Kampus-ITB-Jatinangor.png"
+        }
     ]
 }
