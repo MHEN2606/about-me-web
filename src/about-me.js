@@ -4,7 +4,8 @@ const AboutMe = () =>{
     const age = 2021 - 2003
     return(
 
-        <><h1>{title}</h1>
+        <>
+        <h1>{title}</h1>
 
         <div className="column">
             <div>
