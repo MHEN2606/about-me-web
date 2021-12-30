@@ -7,15 +7,16 @@ const Education = ({education}) => {
         <p><i>Curriculum Vitae</i> of Matthew Mahendra</p>
 
         {education.map((education)=>
-        <Link to={`/schooldetail/${education.id}`} key={education.id}>
-            <div className='column'>
+        
+            <div className='column' key={education.id}>
                 <div>
                     <h3>{education.school}</h3>
                     <p>Years: {education.years}</p>
                     <p>Majors: {education.major}</p>
+                    <p><Link to={`/schooldetail/${education.id}`} key={education.id}>About the school</Link></p>
                 </div>
             </div>
-        </Link>
+        
         )}
         </>
     );
