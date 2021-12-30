@@ -5,9 +5,7 @@ const SchoolDetail = ({education}) => {
     const { id } = useParams();
     return(
         <>
-        {education
-        
-        .map((education) =>
+        {education.map((education) =>
             <div className='column' key={education.id}>
                 <div>
                     <h1>About {education.school}</h1>
