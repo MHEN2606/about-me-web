@@ -1,0 +1,65 @@
+{
+    "achievements":[
+        {
+            "title":"Saint Robert Southwell Award",
+            "awardedBy": "Canisius College Senior High School",
+            "date": 2021,
+            "description": "Outstanding dedication in Perseviam Choir",
+            "id":1
+        },
+        {
+            "title": "Art Award",
+            "awardedBy":"Canisius College Junior High School",
+            "date": 2018,
+            "description":"Outstanding dedication in Cantamus Choir",
+            "id":2
+        },
+        {
+            "title": "Summa Cum Laude in Non Academic Achievements (2 times)",
+            "awardedBy":"Canisius College Senior High School",
+            "date": [2019, 2021],
+            "description": "Achieving a non academic score of 250 in a semester",
+            "id":3
+        },
+        {
+            "title": "Cum Laude in Academic Achievements (3 times)",
+            "awardedBy": "Canisius College Senior High School",
+            "date": [2020, 2021],
+            "description": "Achieving a grade average of 88.00 in a semester",
+            "id":4
+        },
+        {
+            "title": "First prize in FESPARANI 2019",
+            "awardedBy": "MKS SMTA KAJ",
+            "date": "2019",
+            "description": "Achieving first place in the choir competition, Fesparani",
+            "id":5
+        }
+    ],
+    "activities":[
+        {
+            "name": "Persevera Choir",
+            "position": "Choir President of 2019-2020",
+            "yearsActive": "2018-2021",
+            "id":1
+        },
+        {
+            "name": "Perseviam Choir",
+            "position": "Choir President of 2020-2021, Ex-Officio Vice President of Persevera of 2020-2021",
+            "yearsActive": "2018-2021",
+            "id": 2
+        },
+        {
+            "name": "IT Division of SEEI ITB 2021",
+            "position": "Division Head",
+            "yearsActive": "2021 - now",
+            "id": 3
+        },
+        {
+            "name": "Choir Division of KMK ITB",
+            "position": "Member",
+            "yearsActive":"2021 - now",
+            "id": 4
+        }
+    ]
+}
